@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// using recursion
 void printSubstring(int i, vector<int> &ds, int arr[], int n){
     if(i == n){
         for(auto it: ds){
