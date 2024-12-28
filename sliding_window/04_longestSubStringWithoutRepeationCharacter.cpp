@@ -24,7 +24,7 @@ int optimalSoln(string &s){
     while(r < s.size()){
 
         if(hash[s[r]] != -1){
-            if(hash[s[r]] > l){
+            if(hash[s[r]] >= l){
                 l = hash[s[r]] + 1;
             } 
         }
